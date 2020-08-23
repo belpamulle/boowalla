@@ -1,0 +1,16 @@
+.history/
+node_modules
+.DS_Store
+
+# --- IDE ---
+/*.iml
+/.gradle
+/.idea
+.vscode
+
+*.log
+mb.pid
+node_modules
+npm-debug.log
+.env
+/build
