@@ -1,8 +1,13 @@
+server:
+  port: 8888
+
 spring:
   application:
     name: spring-config-deep
+  profiles:
+    active: native
   cloud:
     config:
       server:
-        git:
-          - uri: https://github.com/spring-cloud-samples/config-repo
+        native:
+          search-locations: file:${HOME}/projects/test_projects/boowalla/spring-config-deep/api-config-values/
