@@ -1,0 +1,3 @@
+[submodule "authoring-hub"]
+	path = authoring-hub
+	url = /authoring-hub
