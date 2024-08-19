@@ -12,8 +12,8 @@ A simple Python API application to encrypt and decrypt messages using the Fernet
 1. Clone the repository:
    ```bash
    git clone https://github.com/belpamulle/boowalla.git
-   cd boowalla/python-api
-
+   cd boowalla/python-api 
+   ```
 
 2. Create a virtual environment and activate it:
 
@@ -25,7 +25,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install the required dependencies:
 
-```pip install -r requirements.txt
+```
+pip install -r requirements.txt
 ```
 
 ## Running the Application
